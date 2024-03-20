@@ -1,0 +1,67 @@
+/* Link em estado inicial sem sublinhado */
+a {
+    text-decoration: none;
+  }
+  
+  /* Link em estado inicial com sublinhado acima do texto */
+  a:link {
+    text-decoration: underline overline; /* Sublinhado acima do texto */
+  }
+  
+  /* Link em estado ativo com uma linha passando pelo meio do texto */
+  a:active {
+    text-decoration: line-through;
+  }
+  
+  /* Link em estado visitado com sublinhado abaixo do texto */
+  a:visited {
+    text-decoration: underline;
+  }
+  
+  /* Link em estado inicial na cor laranja */
+  a {
+    color: orange;
+  }
+  
+  /* Link em estado hover na cor verde e sublinhado */
+  a:hover {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  /* Link em estado inicial com bordas sólidas azuis, fundo preto e cor da fonte branca */
+  a {
+    border: 2px solid blue;
+    background-color: black;
+    color: white;
+  }
+  
+  /* Link em estado hover com bordas pontilhadas pretas, fundo branco e cor da fonte preta */
+  a:hover {
+    border: 2px dotted black;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Link em estado inicial com cor de texto vermelha */
+  a {
+    color: red;
+  }
+  
+  /* Link em estado visitado com itálico e negrito na cor laranja */
+  a:visited {
+    font-style: italic;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  /* Link em estado hover com sublinhado */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Link em estado de clique com cor de fundo amarela */
+  a:active {
+    background-color: yellow;
+  }
+  
